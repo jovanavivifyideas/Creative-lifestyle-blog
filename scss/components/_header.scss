@@ -1,17 +1,16 @@
 
 .cl-c-header {
-    width: 90%;
+    max-width: 94rem;
     margin: 0 auto;
     border-bottom: 1px solid $color-gray;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    align-items: center;
+    padding: 4rem 0;
 
     @include respond(tablet) {
         flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        padding: 0;  
+        justify-content: space-between; 
     }
     
 }

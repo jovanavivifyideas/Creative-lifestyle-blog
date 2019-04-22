@@ -1,16 +1,19 @@
 
 .cl-c-navigation{
-    padding: 1rem;
-    width: 90%;
-    margin: 2rem auto 1rem auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+
+    
 }
 .cl-c-navigation__list {
     display: flex;
+    max-width: 94rem;
+    width: 100%;
     flex-direction: column;
-
+    justify-content: space-around;
     @include respond (tablet) {
         flex-direction: row;
-        justify-content: center;
     }
 }
 
@@ -19,15 +22,6 @@
     margin-bottom: 1rem;
     @include respond (tablet) {
         margin-bottom: 0;
-        &:not(:last-child) {
-            margin-right: 1.5rem;
-        }
-    }
-
-    @include respond (desk) {
-        &:not(:last-child) {
-            margin-right: 3.5rem;;
-        }
     }
 }
 
@@ -35,10 +29,10 @@
     text-decoration: none;
     color: $color-black;
     font-family: $primary-font;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    font-size: 1.3rem;
+    font-size: 1.62rem;
 
     &:hover {
         color: $color-orange;
