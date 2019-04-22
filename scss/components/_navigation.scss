@@ -1,0 +1,44 @@
+
+.cl-c-navigation{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.cl-c-navigation__list {
+    display: flex;
+    max-width: 94rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    @include respond (tablet) {
+        flex-direction: row;
+    }
+}
+
+.cl-c-navigation__item {
+    list-style: none;
+    margin-bottom: 1rem;
+    @include respond (tablet) {
+        margin-bottom: 0;
+    }
+}
+
+.cl-c-navigation__link {
+    text-decoration: none;
+    color: $color-black;
+    font-family: $primary-font;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.62rem;
+
+    &:hover {
+        color: $color-orange;
+    }
+}
+
+.cl-c-navigation__link--active {
+    color: $color-orange;
+}

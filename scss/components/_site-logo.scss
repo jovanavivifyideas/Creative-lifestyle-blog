@@ -1,0 +1,17 @@
+
+.cl-c-site-logo {
+    margin-bottom: 2rem;
+
+    @include respond(tablet) {
+        margin-bottom:  0;
+    }
+}
+
+.cl-c-site-logo__link {
+    display: block;
+}
+.cl-c-site-logo__img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
