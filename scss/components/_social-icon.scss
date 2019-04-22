@@ -1,0 +1,40 @@
+
+.cl-c-social-icon__list {
+     display: flex;
+     justify-content: center; 
+     margin-bottom: 1rem;
+}
+
+.cl-c-social-icon__item {
+    list-style: none;
+    margin-right: 1rem;
+
+}
+
+.cl-c-social-icon__link {
+    padding: .7rem;
+    border: 1px solid $color-gray-dark;
+    border-radius: 50%;
+    &:hover {
+        border-color:  $color-orange;
+    }
+}
+
+.cl-c-social-icon__link--active {
+    border-color:  $color-orange;
+}
+
+.fab {
+    font-size: 1rem;
+    color: $color-gray-dark;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    &:hover {
+        color: $color-orange;
+    }
+}
+
+.fab--active {
+    color: $color-orange;
+}

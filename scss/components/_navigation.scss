@@ -1,0 +1,50 @@
+
+.cl-c-navigation{
+    padding: 1rem;
+    width: 90%;
+    margin: 2rem auto 1rem auto;
+}
+.cl-c-navigation__list {
+    display: flex;
+    flex-direction: column;
+
+    @include respond (tablet) {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.cl-c-navigation__item {
+    list-style: none;
+    margin-bottom: 1rem;
+    @include respond (tablet) {
+        margin-bottom: 0;
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    @include respond (desk) {
+        &:not(:last-child) {
+            margin-right: 3.5rem;;
+        }
+    }
+}
+
+.cl-c-navigation__link {
+    text-decoration: none;
+    color: $color-black;
+    font-family: $primary-font;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.3rem;
+
+    &:hover {
+        color: $color-orange;
+    }
+}
+
+.cl-c-navigation__link--active {
+    color: $color-orange;
+}

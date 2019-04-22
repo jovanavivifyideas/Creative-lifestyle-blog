@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 50%; }
+  @media (min-width: 600px) {
+    html {
+      font-size: 60%; } }
+  @media (min-width: 900px) {
+    html {
+      font-size: 62.5%; } }
+
+body {
+  text-align: center; }
+
+.cl-l-header-conteiner {
+  background-color: #fff; }
+
+.cl-c-header {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E4E4E4;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; }
+  @media (min-width: 600px) {
+    .cl-c-header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0; } }
+
+.cl-c-site-logo {
+  margin: 2rem; }
+
+.cl-c-site-logo__img {
+  max-width: 250px;
+  height: auto; }
+
+.cl-c-social-icon__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; }
+
+.cl-c-social-icon__item {
+  list-style: none;
+  margin-right: 1rem; }
+
+.cl-c-social-icon__link {
+  padding: .7rem;
+  border: 1px solid #A9A9A9;
+  border-radius: 50%; }
+  .cl-c-social-icon__link:hover {
+    border-color: #F3AE76; }
+
+.cl-c-social-icon__link--active {
+  border-color: #F3AE76; }
+
+.fab {
+  font-size: 1rem;
+  color: #A9A9A9;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block; }
+  .fab:hover {
+    color: #F3AE76; }
+
+.fab--active {
+  color: #F3AE76; }
+
+.cl-c-navigation {
+  padding: 1rem;
+  width: 90%;
+  margin: 2rem auto 1rem auto; }
+
+.cl-c-navigation__list {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 600px) {
+    .cl-c-navigation__list {
+      flex-direction: row;
+      justify-content: center; } }
+
+.cl-c-navigation__item {
+  list-style: none;
+  margin-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .cl-c-navigation__item {
+      margin-bottom: 0; }
+      .cl-c-navigation__item:not(:last-child) {
+        margin-right: 1.5rem; } }
+  @media (min-width: 900px) {
+    .cl-c-navigation__item:not(:last-child) {
+      margin-right: 3.5rem; } }
+
+.cl-c-navigation__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-size: 1.3rem; }
+  .cl-c-navigation__link:hover {
+    color: #F3AE76; }
+
+.cl-c-navigation__link--active {
+  color: #F3AE76; }
