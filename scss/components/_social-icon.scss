@@ -7,16 +7,19 @@
 
 .cl-c-social-icon__item {
     list-style: none;
-    margin-right: 1rem;
     border: 1px solid $color-gray-dark;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
+   
+    &:not(:last-child) {
+        margin-right: 1rem;
+    }
     &:hover {
         border-color:  $color-orange;
     }
 
-}
+}s
 
 .cl-c-social-icon__link {
     width: 100%;
@@ -43,6 +46,6 @@
     }
 }
 
-.fab--active {
+.cl-c-social-icon__icon--active {
     color: $color-orange;
 }
