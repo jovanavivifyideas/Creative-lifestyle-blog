@@ -14,45 +14,43 @@
 }
 
 .caroseul-main__photo,.caroseul-cards__card-img{
-    max-width: 100%;
-    display: block;
-    height: auto;
+    @include responsive;
 }
 
-.caroseul-main__icon {
-    
+.caroseul-main__icon-link {  
     color: $color-gray;
     cursor: pointer;
 }
 
-.caroseul-main__icon-right {
+
+.caroseul-main__icon {
     position: absolute;
-    right: 5rem;
-    top: 35%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 3.3rem;
 
-    @include respond (tablet) {
-        top: 50%;
+}
+
+.caroseul-main__icon--left {
+    left: 2rem;
+     
+    @include respond(tablet) {
+        left: 5rem;
     }
 }
 
-.caroseul-main__icon-left {
-    position: absolute;
-    left: 5rem;
-    top: 35%;
-    transform: translate(-50%, -50%);
-    font-size: 3.3rem;
-
-    @include respond (tablet) {
-        top: 50%;
+.caroseul-main__icon--right {
+    right: 2rem;
+     
+    @include respond(tablet) {
+        right: 5rem;
     }
 }
 
 .caroseul-main__description {
     position: absolute;
     bottom: 4vw;
-    left: 48%;
+    left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 70%;
@@ -90,6 +88,7 @@
     justify-content: space-between;
     flex-flow: column;
     align-items: center;
+    
     @include respond(tablet) {
         flex-direction: row;
     }

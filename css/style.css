@@ -137,34 +137,32 @@ s
   display: block;
   height: auto; }
 
-.caroseul-main__icon {
+.caroseul-main__icon-link {
   color: #E4E4E4;
   cursor: pointer; }
 
-.caroseul-main__icon-right {
+.caroseul-main__icon {
   position: absolute;
-  right: 5rem;
-  top: 35%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 3.3rem; }
-  @media (min-width: 600px) {
-    .caroseul-main__icon-right {
-      top: 50%; } }
 
-.caroseul-main__icon-left {
-  position: absolute;
-  left: 5rem;
-  top: 35%;
-  transform: translate(-50%, -50%);
-  font-size: 3.3rem; }
+.caroseul-main__icon--left {
+  left: 2rem; }
   @media (min-width: 600px) {
-    .caroseul-main__icon-left {
-      top: 50%; } }
+    .caroseul-main__icon--left {
+      left: 5rem; } }
+
+.caroseul-main__icon--right {
+  right: 2rem; }
+  @media (min-width: 600px) {
+    .caroseul-main__icon--right {
+      right: 5rem; } }
 
 .caroseul-main__description {
   position: absolute;
   bottom: 4vw;
-  left: 48%;
+  left: 50%;
   transform: translateX(-50%);
   width: 100%;
   max-width: 70%;
