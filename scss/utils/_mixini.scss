@@ -21,3 +21,9 @@
     display: block;
     height: auto;
 }
+
+@mixin flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

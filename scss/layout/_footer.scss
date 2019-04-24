@@ -1,0 +1,164 @@
+
+.cl-l-footer {
+    background-color: $bg-footer;
+    padding: 2rem 0;
+}
+
+.cl-l-footer-container {
+    max-width: 94rem;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    position: relative;
+
+    &::after{
+        content:"";
+        display: block;
+        position: absolute;
+        width: 25rem;
+        height: 1px;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $color-gray-dark;
+       }
+
+    @include respond(tablet) {
+        padding: 3rem 0;
+        flex-direction: row;
+        &::after{
+            width: 55rem;
+           }
+    }
+}
+
+.cl-l-footer__about-us {
+    margin-bottom: 2rem;
+    @include flex-start;
+
+    @include respond(tablet) {
+        flex: 1 0 100%;
+        padding: 2rem;
+    }
+    @include respond(desk) {
+        flex: 1 0 30%;
+    }
+}
+
+.cl-l-footer__heading {
+    font-weight: 400;
+    font-family: $secondary-font;
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.cl-l-footer__paragraf {
+    text-align: start;
+    font-size: 1.4rem;
+    color: $color-white;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-family: $secondary-font;
+}
+
+.cl-l-footer__update {
+    margin-bottom: 2rem;
+
+    @include flex-start;
+      
+    @include respond(tablet) {
+       flex: 1 0 50%;
+       padding: 2rem;
+    }
+    @include respond(desk) {
+        flex: 1 0 30%;
+        padding: 0;
+        margin: 0 3rem;
+    }
+}
+
+.cl-l-footer__update-email {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.cl-l-footer__update-input {
+    width: 25rem;
+    height: 3.5rem;
+    background-color: transparent;
+    border: 1px solid $color-white;
+    border-right: none;  
+}
+
+  ::placeholder {
+    color: $color-gray-dark;
+    padding: 2rem;
+  }
+
+  .cl-l-footer__update-btn {
+    width: 5rem;
+    height: 3.5rem;
+    background-color: transparent;
+    border: 1px solid $color-white;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+
+.cl-l-footer__posts {
+    margin-bottom: 2rem;
+    @include flex-start;
+
+    @include respond(tablet) {
+        flex: 1 0 50%;
+        padding: 2rem;
+     }
+     @include respond(desk) {
+         flex: 1 0 30%;
+         padding: 0;
+     }
+}
+
+.cl-l-footer__post {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.cl-l-footer__post-description {
+    margin-left: 1rem;
+
+    @include flex-start;
+}
+
+.cl-l-footer__post-paragraf {
+    text-align: start;
+    color: $color-white;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    width: 15rem;
+    font-family: $primary-font;
+}
+
+.cl-l-footer__post-date {
+    font-size: 1rem;
+    color: $color-white;
+    font-family: $secondary-font;
+}
+.cl-l-footer__post-img {
+    max-width: 7.3rem;
+    max-height: 5.4rem;
+}
+
+.cl-l-footer__copyright {
+    color: $color-white;
+    font-size: 1.4rem;
+    font-family: $secondary-font;
+}
+.cl-l-footer__copyright-vivify {
+    color: $color-orange;
+}
