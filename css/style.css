@@ -335,3 +335,25 @@ s
   font-weight: 600;
   max-width: 6.9rem;
   padding: .8rem 1.3rem; }
+
+.instagram-conteiner {
+  max-width: 94rem;
+  margin: 0 auto;
+  padding: 5rem 0; }
+
+.instagram__posts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.instagram__posts-post {
+  flex: 1 0 50%;
+  padding: .5rem; }
+  @media (min-width: 600px) {
+    .instagram__posts-post {
+      flex: 1 0 25%; } }
+
+.instagram-post__img {
+  max-width: 100%;
+  display: block;
+  height: 100%; }
