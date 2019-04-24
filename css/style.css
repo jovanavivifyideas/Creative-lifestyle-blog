@@ -227,7 +227,8 @@ body {
 
 .cl-c-blog-conteiner {
   max-width: 94rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 3rem; }
 
 .cl-c-blog-link {
   width: 26rem;
@@ -329,24 +330,24 @@ body {
   max-width: 6.9rem;
   padding: .8rem 1.3rem; }
 
-.instagram-conteiner {
+.cl-c-instagram-conteiner {
   max-width: 94rem;
   margin: 0 auto;
-  padding: 5rem 0; }
+  padding-bottom: 8rem; }
 
-.instagram__posts {
+.cl-c-instagram__posts {
   width: 100%;
   display: flex;
   flex-wrap: wrap; }
 
-.instagram__posts-post {
+.cl-c-instagram__posts-post {
   flex: 1 0 50%;
   padding: .5rem; }
   @media (min-width: 600px) {
-    .instagram__posts-post {
+    .cl-c-instagram__posts-post {
       flex: 1 0 25%; } }
 
-.instagram-post__img {
+.cl-c-instagram-post__img {
   max-width: 100%;
   display: block;
   height: 100%; }
@@ -448,6 +449,8 @@ body {
   border: 1px solid #fff;
   text-transform: uppercase;
   color: #fff; }
+  .cl-l-footer__update-btn:hover {
+    color: #b3b3b3; }
 
 .cl-l-footer__posts {
   margin-bottom: 2rem;

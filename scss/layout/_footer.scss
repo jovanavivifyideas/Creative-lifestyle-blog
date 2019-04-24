@@ -108,6 +108,10 @@
     border: 1px solid $color-white;
     text-transform: uppercase;
     color: $color-white;
+
+    &:hover {
+        color: darken($color-white,30%);
+    }
   }
 
 .cl-l-footer__posts {
