@@ -231,3 +231,107 @@ s
   font-weight: 400;
   color: #fff;
   text-align: left; }
+
+.blog-conteiner {
+  max-width: 94rem;
+  margin: 2rem auto; }
+
+.blog-link {
+  width: 26rem;
+  height: 4.4rem;
+  padding: .8rem 3rem;
+  font-size: 2.4rem;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background-color: #000;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5rem; }
+
+.blog-boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.blog-box {
+  max-width: 29.4rem;
+  margin-bottom: 2rem; }
+
+.blog-box__img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
+
+.blog-box__description {
+  padding: 2rem;
+  height: 16rem;
+  max-width: 100%;
+  background-color: #fff; }
+
+.blog-box__description-link {
+  width: 7.6rem;
+  height: 2.3rem;
+  padding: .5rem 1.4rem;
+  font-size: 1.3rem;
+  background: #E79E5A;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1.5rem; }
+
+.blog-box__description-person {
+  margin-bottom: 1rem; }
+
+.blog-box__description-info {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #A9A9A9; }
+  .blog-box__description-info:not(:last-child) {
+    margin-right: 1rem; }
+
+.blog-box__description__paragraf {
+  font-size: 2.2rem;
+  max-width: 26rem;
+  height: 6.7rem;
+  margin: 0 auto;
+  color: #525252;
+  font-family: "Open Sans", sans-serif; }
+
+.blog-pagination {
+  padding: 4rem 0; }
+
+.blog-pagination__btn {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  max-width: 3.5rem;
+  height: 3.5rem;
+  padding: .8rem 1.4rem;
+  display: inline-block;
+  background: #fff;
+  color: #525252;
+  border: 1px solid #E4E4E4;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase; }
+  @media (min-width: 600px) {
+    .blog-pagination__btn:not(:last-child) {
+      margin-right: .5rem; } }
+
+.blog-pagination__btn--active {
+  background-color: #000;
+  color: #fff;
+  border: none; }
+
+.blog-pagination__btn--prev {
+  font-weight: 600;
+  max-width: 10.4rem;
+  padding: .8rem 1.1rem; }
+
+.blog-pagination__btn--next {
+  font-size: 1.4rem;
+  font-weight: 600;
+  max-width: 6.9rem;
+  padding: .8rem 1.3rem; }
