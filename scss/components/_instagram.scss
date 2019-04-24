@@ -1,16 +1,16 @@
-.instagram-conteiner {
+.cl-c-instagram-conteiner {
     max-width: 94rem;
     margin: 0 auto;
-    padding: 5rem 0;
+    padding-bottom: 8rem;
 }
 
-.instagram__posts {
+.cl-c-instagram__posts {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.instagram__posts-post {
+.cl-c-instagram__posts-post {
     flex: 1 0 50%;
     padding: .5rem;
     
@@ -19,7 +19,7 @@
     }
 }
 
-.instagram-post__img {
+.cl-c-instagram-post__img {
     max-width: 100%;
     display: block;
     height: 100%;

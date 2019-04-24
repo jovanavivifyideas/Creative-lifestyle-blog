@@ -1,9 +1,10 @@
-.blog-conteiner {
+.cl-c-blog-conteiner {
     max-width: 94rem;
-    margin: 2rem auto;
+    margin: 0 auto;
+    padding-top: 3rem;
 }
 
-.blog-link {
+.cl-c-blog-link {
     width: 26rem;
     height: 4.4rem;
     padding: .8rem 3rem;
@@ -17,30 +18,30 @@
     margin-bottom: 5rem;
 }
 
-.blog-boxes {
+.cl-c-blog-boxes {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.blog-box {
+.cl-c-blog-box {
     max-width: 29.4rem;
     margin-bottom: 2rem;
 }
 
-.blog-box__img {
+.cl-c-blog-box__img {
     @include responsive;
 }
 
-.blog-box__description {
+.cl-c-blog-box__description {
     padding: 2rem;
     height: 16rem;
     max-width: 100%;
     background-color: $color-white;
 }
 
-.blog-box__description-link {
+.cl-c-blog-box__description-link {
     width: 7.6rem;
     height: 2.3rem;
     padding: .5rem 1.4rem;
@@ -52,11 +53,11 @@
     margin-bottom: 1.5rem;
 }
 
-.blog-box__description-person {
+.cl-c-blog-box__description-person {
     margin-bottom: 1rem;
 }
 
-.blog-box__description-info {
+.cl-c-blog-box__description-info {
     font-size: 1rem;
     font-family: $secondary-font;
     color: $color-gray-dark;
@@ -66,7 +67,7 @@
     }
 }
 
-.blog-box__description__paragraf {
+.cl-c-blog-box__description__paragraf {
     font-size: 2.2rem;
     max-width: 26rem;
     height: 6.7rem;
@@ -75,12 +76,12 @@
     font-family: $secondary-font;
 }
 
-.blog-pagination {
+.cl-c-blog-pagination {
     padding: 4rem 0;
 
 }
 
-.blog-pagination__btn {
+.cl-c-blog-pagination__btn {
     font-size: 1.4rem;
     font-weight: 700;
     text-decoration: none;
@@ -102,19 +103,19 @@
     }
 }
 
-.blog-pagination__btn--active {
+.cl-c-blog-pagination__btn--active {
     background-color: $color-black;
     color: $color-white;
     border: none;
 }
 
-.blog-pagination__btn--prev {
+.cl-c-blog-pagination__btn--prev {
     font-weight: 600;
     max-width: 10.4rem;
     padding: .8rem 1.1rem;
     
 }
-.blog-pagination__btn--next {
+.cl-c-blog-pagination__btn--next {
     font-size: 1.4rem;
     font-weight: 600;
     max-width: 6.9rem;

@@ -1,29 +1,29 @@
 
-.caroseul-conteiner{
+.cl-c-caroseul-conteiner{
     max-width: 94rem;
     margin: 0rem auto;
     padding-top: 7rem;
 
 }
 
-.caroseul-main {
+.cl-c-caroseul-main {
     max-width:94rem;
     margin: 0 auto;
     position: relative;
     margin-bottom: 2.5rem;
 }
 
-.caroseul-main__photo,.caroseul-cards__card-img{
+.cl-c-caroseul-main__photo,.cl-c-caroseul-cards__card-img{
     @include responsive;
 }
 
-.caroseul-main__icon-link {  
+.cl-c-caroseul-main__icon-link {  
     color: $color-gray;
     cursor: pointer;
 }
 
 
-.caroseul-main__icon {
+.cl-c-caroseul-main__icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -31,7 +31,7 @@
 
 }
 
-.caroseul-main__icon--left {
+.cl-c-caroseul-main__icon--left {
     left: 2rem;
      
     @include respond(tablet) {
@@ -39,7 +39,7 @@
     }
 }
 
-.caroseul-main__icon--right {
+.cl-c-caroseul-main__icon--right {
     right: 2rem;
      
     @include respond(tablet) {
@@ -47,7 +47,7 @@
     }
 }
 
-.caroseul-main__description {
+.cl-c-caroseul-main__description {
     position: absolute;
     bottom: 4vw;
     left: 50%;
@@ -63,7 +63,7 @@
     opacity: .8;
 }
 
-.caroseul-main__description-link {
+.cl-c-caroseul-main__description-link {
     width: 7.5rem;
     height: 2.6rem;
     padding: .5rem 1.2rem;
@@ -76,14 +76,14 @@
     color: $color-white;
 }
 
-.caroseul-main__description-paragraf {
+.cl-c-caroseul-main__description-paragraf {
     font-size: 2.4rem;
     font-family: $secondary-font;
     font-weight: 400;
     color: $color-black;
 }
 
-.caroseul-cards {
+.cl-c-caroseul-cards {
     display: flex;
     justify-content: space-between;
     flex-flow: column;
@@ -93,13 +93,13 @@
         flex-direction: row;
     }
 }
-.caroseul-cards__card {
+.cl-c-caroseul-cards__card {
     max-width: 30rem;
     max-height: 21.3rem;
     margin-bottom: 2rem;
 }
 
-.caroseul-cards__card-description {
+.cl-c-caroseul-cards__card-description {
     position: relative;
     bottom: 7.7rem;
     padding-left: 1.8rem;
@@ -110,7 +110,7 @@
    
 }
 
-.caroseul-cards__card-link {
+.cl-c-caroseul-cards__card-link {
     width: 5.5rem;
     height: 2.1rem;
     padding: .3rem 1rem;
@@ -121,7 +121,7 @@
     color: $color-white;
 }
 
-.caroseul-cards__card-paragraf {
+.cl-c-caroseul-cards__card-paragraf {
     font-family: $secondary-font;
     font-size: 1.8rem;
     font-weight: 400;
