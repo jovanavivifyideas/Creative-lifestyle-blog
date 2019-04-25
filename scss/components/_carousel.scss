@@ -85,18 +85,24 @@
 
 .cl-c-caroseul-cards {
     display: flex;
-    justify-content: space-between;
-    flex-flow: column;
     align-items: center;
-    
+    flex-flow: column;
     @include respond(tablet) {
         flex-direction: row;
+        justify-content: space-around;
+    }
+    @include respond(desk) {
+        justify-content: space-between;
     }
 }
 .cl-c-caroseul-cards__card {
     max-width: 30rem;
     max-height: 21.3rem;
     margin-bottom: 2rem;
+
+    @include respond(tablet) {
+        width: 30%;
+    }
 }
 
 .cl-c-caroseul-cards__card-description {

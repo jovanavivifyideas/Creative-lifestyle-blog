@@ -189,17 +189,23 @@ body {
 
 .cl-c-caroseul-cards {
   display: flex;
-  justify-content: space-between;
-  flex-flow: column;
-  align-items: center; }
+  align-items: center;
+  flex-flow: column; }
   @media (min-width: 600px) {
     .cl-c-caroseul-cards {
-      flex-direction: row; } }
+      flex-direction: row;
+      justify-content: space-around; } }
+  @media (min-width: 900px) {
+    .cl-c-caroseul-cards {
+      justify-content: space-between; } }
 
 .cl-c-caroseul-cards__card {
   max-width: 30rem;
   max-height: 21.3rem;
   margin-bottom: 2rem; }
+  @media (min-width: 600px) {
+    .cl-c-caroseul-cards__card {
+      width: 30%; } }
 
 .cl-c-caroseul-cards__card-description {
   position: relative;
@@ -335,7 +341,7 @@ body {
   font-weight: 600;
   width: 6.9rem; }
 
-.cl-c-instagram-conteiner {
+.cl-c-instagram {
   max-width: 94rem;
   margin: 0 auto;
   padding-bottom: 8rem; }
