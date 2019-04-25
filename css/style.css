@@ -32,10 +32,12 @@ body {
       justify-content: space-between; } }
 
 .cl-c-site-logo {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 0 2rem; }
   @media (min-width: 600px) {
     .cl-c-site-logo {
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      padding: 0; } }
 
 .cl-c-site-logo__link {
   display: block; }
@@ -99,12 +101,12 @@ body {
 
 .cl-c-navigation__link {
   text-decoration: none;
-  color: #000;
+  color: #525252;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  font-size: 1.62rem; }
+  font-size: 1.3rem; }
   .cl-c-navigation__link:hover {
     color: #F3AE76; }
 
@@ -201,7 +203,7 @@ body {
 
 .cl-c-caroseul-cards__card-description {
   position: relative;
-  bottom: 7.7rem;
+  bottom: 9rem;
   padding-left: 1.8rem;
   max-width: 30rem;
   display: flex;
@@ -216,7 +218,8 @@ body {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   background-color: #E79E5A;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 1rem; }
 
 .cl-c-caroseul-cards__card-paragraf {
   font-family: "Open Sans", sans-serif;
@@ -233,7 +236,7 @@ body {
 .cl-c-blog-link {
   width: 26rem;
   height: 4.4rem;
-  padding: .8rem 3rem;
+  padding: .5rem 3rem 1rem 3rem;
   font-size: 2.4rem;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
@@ -301,9 +304,9 @@ body {
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-  max-width: 3.5rem;
-  height: 3.5rem;
-  padding: .8rem 1.4rem;
+  width: 3rem;
+  line-height: 3rem;
+  height: 3rem;
   display: inline-block;
   background: #fff;
   color: #525252;
@@ -311,8 +314,12 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase; }
   @media (min-width: 600px) {
-    .cl-c-blog-pagination__btn:not(:last-child) {
-      margin-right: .5rem; } }
+    .cl-c-blog-pagination__btn {
+      width: 3.5rem;
+      height: 3.5rem;
+      line-height: 3.5rem; }
+      .cl-c-blog-pagination__btn:not(:last-child) {
+        margin-right: .5rem; } }
 
 .cl-c-blog-pagination__btn--active {
   background-color: #000;
@@ -321,14 +328,12 @@ body {
 
 .cl-c-blog-pagination__btn--prev {
   font-weight: 600;
-  max-width: 10.4rem;
-  padding: .8rem 1.1rem; }
+  width: 10.4rem; }
 
 .cl-c-blog-pagination__btn--next {
   font-size: 1.4rem;
   font-weight: 600;
-  max-width: 6.9rem;
-  padding: .8rem 1.3rem; }
+  width: 6.9rem; }
 
 .cl-c-instagram-conteiner {
   max-width: 94rem;
@@ -350,7 +355,7 @@ body {
 .cl-c-instagram-post__img {
   max-width: 100%;
   display: block;
-  height: 100%; }
+  height: auto; }
 
 .cl-l-footer {
   background-color: #575757;
@@ -436,11 +441,13 @@ body {
   height: 3.5rem;
   background-color: transparent;
   border: 1px solid #fff;
-  border-right: none; }
+  border-right: none;
+  padding: 0 2rem; }
+  .cl-l-footer__update-input:focus {
+    outline: none; }
 
 ::placeholder {
-  color: #A9A9A9;
-  padding: 2rem; }
+  color: #A9A9A9; }
 
 .cl-l-footer__update-btn {
   width: 5rem;
@@ -449,6 +456,8 @@ body {
   border: 1px solid #fff;
   text-transform: uppercase;
   color: #fff; }
+  .cl-l-footer__update-btn:focus {
+    outline: none; }
   .cl-l-footer__update-btn:hover {
     color: #b3b3b3; }
 
@@ -499,4 +508,6 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 .cl-l-footer__copyright-vivify {
-  color: #F3AE76; }
+  color: #F3AE76;
+  text-decoration: none;
+  cursor: pointer; }

@@ -1,9 +1,10 @@
 
 .cl-c-site-logo {
     margin-bottom: 2rem;
-
+    padding: 0 2rem;
     @include respond(tablet) {
         margin-bottom:  0;
+        padding: 0;
     }
 }
 

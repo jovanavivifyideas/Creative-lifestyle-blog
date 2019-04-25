@@ -94,12 +94,17 @@
     background-color: transparent;
     border: 1px solid $color-white;
     border-right: none;  
+    padding: 0 2rem;
+
+    &:focus {
+        outline: none;
+    }
 }
 
-  ::placeholder {
+ ::placeholder {
     color: $color-gray-dark;
-    padding: 2rem;
-  }
+  
+ }
 
   .cl-l-footer__update-btn {
     width: 5rem;
@@ -108,6 +113,10 @@
     border: 1px solid $color-white;
     text-transform: uppercase;
     color: $color-white;
+    
+    &:focus {
+        outline: none;
+    }
 
     &:hover {
         color: darken($color-white,30%);
@@ -165,4 +174,6 @@
 }
 .cl-l-footer__copyright-vivify {
     color: $color-orange;
+    text-decoration: none;
+    cursor: pointer;
 }
