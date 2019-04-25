@@ -255,8 +255,20 @@ body {
 .cl-c-blog-boxes {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  flex-direction: column;
+  align-items: center; }
+  @media (min-width: 600px) {
+    .cl-c-blog-boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 29.4rem);
+      grid-gap: 3rem;
+      justify-content: center; } }
+  @media (min-width: 900px) {
+    .cl-c-blog-boxes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; } }
 
 .cl-c-blog-box {
   max-width: 29.4rem;
